@@ -1,0 +1,6 @@
+condition,expected_answer,total,correct,accuracy,yes_count,no_count
+caption,YES,5,0,0.0,0,5
+switch_caption,NO,5,5,1.0,0,5
+random_caption,NO,5,5,1.0,0,5
+most_similar_sbert_include_pair,NO,5,5,1.0,0,5
+least_similar_sbert,NO,5,5,1.0,0,5

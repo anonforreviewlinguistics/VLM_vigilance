@@ -1,0 +1,8 @@
+condition,assertion_type,assertion_polarity,n_trials,n_valid,n_correct,n_picked_swap_in,n_followed_assertion,mean_chance,accuracy,accuracy_of_valid,picked_swap_in_rate,assertion_follow_rate
+none,none,none,100,100,76,2,0,0.1657142857142857,0.76,0.76,0.02,
+general_wrong,general,wrong,100,100,5,95,95,0.1657142857142857,0.05,0.05,0.95,0.95
+general_correct,general,correct,100,100,100,0,100,0.1657142857142857,1.0,1.0,0.0,1.0
+first_person_wrong,first_person,wrong,100,100,48,43,43,0.1657142857142857,0.48,0.48,0.43,0.43
+first_person_correct,first_person,correct,100,100,98,0,98,0.1657142857142857,0.98,0.98,0.0,0.98
+panel_of_three_wrong,panel_of_three,wrong,100,100,15,84,84,0.1657142857142857,0.15,0.15,0.84,0.84
+panel_of_three_correct,panel_of_three,correct,100,100,100,0,100,0.1657142857142857,1.0,1.0,0.0,1.0

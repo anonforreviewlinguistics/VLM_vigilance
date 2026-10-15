@@ -1,0 +1,16 @@
+prompt_name,caption_condition,expected_answer,total,correct,yes_count,no_count,other_count,accuracy
+caption_verification,least_similar_part_description_shape_sbert,NO,145,145,0,145,0,1.0
+caption_verification,part_description_shape,YES,145,0,0,145,0,0.0
+caption_verification,photo_description,YES,145,0,0,145,0,0.0
+caption_verification,photo_plus_part_description_one_shape_swap,NO,145,145,0,145,0,1.0
+caption_verification,photo_plus_part_description_shape,YES,145,0,0,145,0,0.0
+first_person_bias,least_similar_part_description_shape_sbert,NO,145,145,0,145,0,1.0
+first_person_bias,part_description_shape,YES,145,0,0,145,0,0.0
+first_person_bias,photo_description,YES,145,0,0,145,0,0.0
+first_person_bias,photo_plus_part_description_one_shape_swap,NO,145,145,0,145,0,1.0
+first_person_bias,photo_plus_part_description_shape,YES,145,0,0,145,0,0.0
+panel_of_three,least_similar_part_description_shape_sbert,NO,145,127,18,127,0,0.8758620689655172
+panel_of_three,part_description_shape,YES,145,88,88,57,0,0.6068965517241379
+panel_of_three,photo_description,YES,145,1,1,144,0,0.006896551724137931
+panel_of_three,photo_plus_part_description_one_shape_swap,NO,145,145,0,145,0,1.0
+panel_of_three,photo_plus_part_description_shape,YES,145,48,48,97,0,0.3310344827586207

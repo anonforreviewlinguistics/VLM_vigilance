@@ -1,0 +1,13 @@
+prompt_name,caption_condition,expected_answer,total,correct,yes_count,no_count,other_count,accuracy
+first_person_bias,least_similar_part_description_sbert,NO,145,132,13,132,0,0.9103448275862069
+first_person_bias,least_similar_part_description_shape_sbert,NO,145,145,0,145,0,1.0
+first_person_bias,least_similar_photo_description_sbert,NO,145,145,0,145,0,1.0
+first_person_bias,most_similar_photo_description_sbert,NO,145,115,30,115,0,0.7931034482758621
+first_person_bias,part_description,YES,145,116,116,29,0,0.8
+first_person_bias,part_description_shape,YES,145,101,101,44,0,0.696551724137931
+first_person_bias,photo_description,YES,145,44,44,101,0,0.30344827586206896
+first_person_bias,photo_plus_part_description,YES,145,99,99,46,0,0.6827586206896552
+first_person_bias,photo_plus_part_description_one_shape_swap,NO,145,130,15,130,0,0.896551724137931
+first_person_bias,photo_plus_part_description_shape,YES,145,104,104,41,0,0.7172413793103448
+first_person_bias,photo_plus_part_description_shape_loose_swap,NO,145,142,3,142,0,0.9793103448275862
+first_person_bias,random_photo_description,NO,145,137,8,137,0,0.9448275862068966

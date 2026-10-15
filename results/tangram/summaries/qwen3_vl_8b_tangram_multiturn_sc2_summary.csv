@@ -1,0 +1,13 @@
+experiment,assertion_type,condition,n_trials,turn_1_polarity,turn_1_n_valid,turn_1_accuracy,turn_1_follow_rate,turn_2_polarity,turn_2_n_valid,turn_2_accuracy,turn_2_follow_rate,turn_3_polarity,turn_3_n_valid,turn_3_accuracy,turn_3_follow_rate,consistent_with_turn_1_rate,changed_answer_rate
+self_consistency_two_turn,general,none_true,100,none,100,0.27,,true,100,1.0,1.0,,,,,0.27,0.73
+self_consistency_two_turn,general,none_false,100,none,100,0.27,,false,100,0.0,1.0,,,,,0.15,0.85
+self_consistency_two_turn,general,true_false,100,true,100,1.0,1.0,false,100,0.0,1.0,,,,,0.0,1.0
+self_consistency_two_turn,general,false_true,100,false,100,0.0,1.0,true,100,1.0,1.0,,,,,0.0,1.0
+self_consistency_two_turn,first_person,none_true,100,none,100,0.27,,true,100,0.83,0.83,,,,,0.44,0.56
+self_consistency_two_turn,first_person,none_false,100,none,100,0.27,,false,100,0.09,0.71,,,,,0.44,0.56
+self_consistency_two_turn,first_person,true_false,100,true,100,0.56,0.56,false,100,0.21,0.53,,,,,0.52,0.48
+self_consistency_two_turn,first_person,false_true,100,false,100,0.16,0.51,true,100,0.83,0.83,,,,,0.33,0.67
+self_consistency_two_turn,panel_of_three,none_true,100,none,100,0.27,,true,100,1.0,1.0,,,,,0.27,0.73
+self_consistency_two_turn,panel_of_three,none_false,100,none,100,0.27,,false,100,0.0,1.0,,,,,0.15,0.85
+self_consistency_two_turn,panel_of_three,true_false,100,true,100,1.0,1.0,false,100,0.0,1.0,,,,,0.0,1.0
+self_consistency_two_turn,panel_of_three,false_true,100,false,100,0.0,1.0,true,100,1.0,1.0,,,,,0.0,1.0

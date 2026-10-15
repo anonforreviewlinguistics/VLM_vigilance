@@ -1,0 +1,7 @@
+prompt_name,caption_condition,expected,total,valid_count,exact_correct,mean_score,median_score,std_score,mean_absolute_error,exact_accuracy,summary_type,disagree_count,mentions_corrected_part_count,disagreement_correct_count,disagree_rate,mentions_corrected_part_rate,disagreement_accuracy
+three_panel_assert_correct,photo_plus_part_description_one_shape_swap,incorrect,104,104,,,,,,,description,1.0,52.0,1.0,0.009615384615384616,0.5,0.009615384615384616
+three_panel_assert_correct,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,,,,,,,description,0.0,99.0,104.0,0.0,0.9519230769230769,1.0
+three_panel_assert_correct,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,,,,,,,description,0.0,87.0,0.0,0.0,0.8365384615384616,0.0
+three_panel_assert_correct_with_detail,photo_plus_part_description_one_shape_swap,incorrect,104,104,,,,,,,description,1.0,64.0,1.0,0.009615384615384616,0.6153846153846154,0.009615384615384616
+three_panel_assert_correct_with_detail,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,,,,,,,description,0.0,93.0,104.0,0.0,0.8942307692307693,1.0
+three_panel_assert_correct_with_detail,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,,,,,,,description,2.0,91.0,2.0,0.019230769230769232,0.875,0.019230769230769232

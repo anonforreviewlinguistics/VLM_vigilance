@@ -1,0 +1,16 @@
+prompt_name,caption_condition,expected_answer,total,correct,yes_count,no_count,other_count,accuracy,p_value_vs_caption_verification,significant_vs_caption_verification,accuracy_delta_vs_caption_verification,direction_vs_caption_verification
+same_team_panel_of_three_scale,caption,YES,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_panel_of_three_scale,least_similar_sbert,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_panel_of_three_scale,most_similar_sbert_include_pair,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_panel_of_three_scale,random_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_panel_of_three_scale,switch_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_persuasive_scale,caption,YES,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_persuasive_scale,least_similar_sbert,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_persuasive_scale,most_similar_sbert_include_pair,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_persuasive_scale,random_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_persuasive_scale,switch_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_scale,caption,YES,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_scale,least_similar_sbert,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_scale,most_similar_sbert_include_pair,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_scale,random_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark
+same_team_scale,switch_caption,NO,0,0,0,0,5,,,missing benchmark,,missing benchmark

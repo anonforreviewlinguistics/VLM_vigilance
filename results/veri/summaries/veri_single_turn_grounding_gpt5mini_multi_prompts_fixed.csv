@@ -1,0 +1,16 @@
+prompt_name,caption_condition,expected_answer,total,correct,yes_count,no_count,other_count,accuracy
+first_person_bias,caption,YES,200,188,188,12,0,0.94
+first_person_bias,least_similar_sbert,NO,200,199,1,199,0,0.995
+first_person_bias,most_similar_sbert_include_pair,NO,200,176,24,176,0,0.88
+first_person_bias,random_caption,NO,200,200,0,200,0,1.0
+first_person_bias,switch_caption,NO,200,171,29,171,0,0.855
+panel_of_three,caption,YES,200,196,196,4,0,0.98
+panel_of_three,least_similar_sbert,NO,200,200,0,200,0,1.0
+panel_of_three,most_similar_sbert_include_pair,NO,200,162,38,162,0,0.81
+panel_of_three,random_caption,NO,200,197,3,197,0,0.985
+panel_of_three,switch_caption,NO,200,156,44,156,0,0.78
+two_person_match,caption,YES,200,197,197,3,0,0.985
+two_person_match,least_similar_sbert,NO,200,200,0,200,0,1.0
+two_person_match,most_similar_sbert_include_pair,NO,200,163,37,163,0,0.815
+two_person_match,random_caption,NO,200,199,1,199,0,0.995
+two_person_match,switch_caption,NO,200,155,45,155,0,0.775

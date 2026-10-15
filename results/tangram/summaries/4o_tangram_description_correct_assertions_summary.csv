@@ -1,0 +1,15 @@
+prompt_name,caption_condition,expected,total,valid_count,disagree_count,mentions_corrected_part_count,disagreement_correct_count,disagree_rate,mentions_corrected_part_rate,disagreement_accuracy,summary_type
+baseline_parts,least_similar_photo_description_sbert,incorrect,104,104,0,10,0,0.0,0.09615384615384616,0.0,description
+baseline_parts,photo_description,correct,104,104,0,28,104,0.0,0.2692307692307692,1.0,description
+baseline_parts,photo_plus_part_description_one_shape_swap,incorrect,104,104,0,28,0,0.0,0.2692307692307692,0.0,description
+baseline_parts,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,1,71,103,0.009615384615384616,0.6826923076923077,0.9903846153846154,description
+baseline_parts,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,0,54,0,0.0,0.5192307692307693,0.0,description
+caption_verification_assert_correct_with_detail,photo_plus_part_description_one_shape_swap,incorrect,104,104,0,46,0,0.0,0.4423076923076923,0.0,description
+caption_verification_assert_correct_with_detail,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,0,93,104,0.0,0.8942307692307693,1.0,description
+caption_verification_assert_correct_with_detail,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,0,89,0,0.0,0.8557692307692307,0.0,description
+first_bias_assert_correct_with_detail,photo_plus_part_description_one_shape_swap,incorrect,104,104,1,51,1,0.009615384615384616,0.49038461538461536,0.009615384615384616,description
+first_bias_assert_correct_with_detail,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,0,94,104,0.0,0.9038461538461539,1.0,description
+first_bias_assert_correct_with_detail,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,0,87,0,0.0,0.8365384615384616,0.0,description
+three_panel_assert_correct_with_detail,photo_plus_part_description_one_shape_swap,incorrect,104,104,0,47,0,0.0,0.4519230769230769,0.0,description
+three_panel_assert_correct_with_detail,photo_plus_part_description_one_shape_swap_corrected_part,correct,104,104,0,96,104,0.0,0.9230769230769231,1.0,description
+three_panel_assert_correct_with_detail,photo_plus_part_description_second_one_shape_swap,incorrect,104,104,0,82,0,0.0,0.7884615384615384,0.0,description

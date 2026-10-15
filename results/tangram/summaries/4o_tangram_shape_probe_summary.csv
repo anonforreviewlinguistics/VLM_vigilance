@@ -1,0 +1,8 @@
+condition,assertion_type,assertion_polarity,n_trials,n_valid,n_correct,n_picked_wrong_item,n_followed_assertion,mean_chance,accuracy,accuracy_of_valid,picked_wrong_item_rate,assertion_follow_rate
+none,none,none,100,100,74,5,0,0.2,0.74,0.74,0.05,
+general_wrong,general,wrong,100,100,0,100,100,0.2,0.0,0.0,1.0,1.0
+general_correct,general,correct,100,100,100,0,100,0.2,1.0,1.0,0.0,1.0
+first_person_wrong,first_person,wrong,100,100,13,86,86,0.2,0.13,0.13,0.86,0.86
+first_person_correct,first_person,correct,100,100,99,1,99,0.2,0.99,0.99,0.01,0.99
+panel_of_three_wrong,panel_of_three,wrong,100,99,3,96,96,0.2,0.03,0.030303030303030304,0.96,0.96
+panel_of_three_correct,panel_of_three,correct,100,100,100,0,100,0.2,1.0,1.0,0.0,1.0
